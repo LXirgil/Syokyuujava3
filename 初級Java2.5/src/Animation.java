@@ -1,14 +1,14 @@
 
 public class Animation extends MyFrame{
 	public void run() {
-		int y=100;
+		int y=170;
 		int x=30;
-		while(true) {
-			while(x<=170) {
+		
+			while(y>=50) {
 				clear();
 				setColor(0,128,0);
 				fillRect(x,y,10,100);
-				x+=5;
+				y-=5;
 				
 				
 				sleep(0.1);
@@ -17,10 +17,10 @@ public class Animation extends MyFrame{
 				clear();
 				setColor(0,128,0);
 				fillRect(x,y,10,100);
-				x-=5;
+				x+=5;
 				sleep(0.1);
 			}
-		}
+		
 	}
 
 }
