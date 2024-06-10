@@ -7,6 +7,9 @@ public class vehicle {
 		this.vx=vx;
 		this.vy=vy;
 	}
+	public void draw(MyFrame f) {
+		
+	}
 	public void move() {
 		x+=vx;
 		y+=vy;
